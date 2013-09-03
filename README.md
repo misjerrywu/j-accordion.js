@@ -1,7 +1,7 @@
 j-accordion.js
 ===========
 
-j-accordion.js is a jQuery accordion plugin just like the accordion on the NVIDIA homepage(<a href="http://www.nvidia.com/page/home.html" target="_blank">http://www.nvidia.com/page/home.html</a>)
+j-accordion.js is a jQuery accordion plugin just like the one on the NVIDIA homepage (<a href="http://www.nvidia.com/page/home.html" target="_blank">http://www.nvidia.com/page/home.html</a>)
 
 ### Include the following CSS in the HTML header:
 
@@ -40,17 +40,17 @@ j-accordion.js is a jQuery accordion plugin just like the accordion on the NVIDI
         </div>
     </div>
 
-### The JavaScript before the closing body tag
+### The JavaScript before the closing body tag:
 
     <body>
 
-        Here is your content
+        Here is the content
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript" src="j-accordin.js"></script>
         <script type="text/javascript">
         $(document).ready(function(){
-	    $('.accordion').jaccordion();
+            $('.accordion').jaccordion();
         });
         </script>
     </body>
