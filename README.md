@@ -1,2 +1,2 @@
-j-accordion
+j-accordion.js
 ===========
