@@ -3,6 +3,8 @@ j-accordion.js
 
 j-accordion.js is a jQuery accordion plugin just like the one on the NVIDIA homepage (<a href="http://www.nvidia.com/page/home.html" target="_blank">http://www.nvidia.com/page/home.html</a>)
 
+You can see the demo <a href="http://jsfiddle.net/misjerrywu/86U79/">HERE</a>.
+
 ### Include the following CSS in the HTML header:
 
     <!-- YUI 3 CSS -->
