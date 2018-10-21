@@ -3,7 +3,7 @@ j-accordion.js v.2.0
 
 j-accordion.js is a jQuery accordion plugin.
 
-You can see the demo [HERE](https://codepen.io/jerrywu/pen/pxZoQM).
+You can see the demo <a href="https://codepen.io/jerrywu/pen/pxZoQM" target="_blank">HERE</a>.
 
 ## New features
 * Mobile friendly (By default, it uses Twitter Bootstrap)
@@ -40,36 +40,36 @@ Specify the CSS class for each accordion. By default, the value is Twitter Boots
 
 Content that is going to present. An example for 2 accordions, each accordion has 3 sliding boxes.
   
-  \[
-    \[\{
-      imagePath: 'images/yosemite-640x400.jpg',
-      heading: 'Yosemite',
-      content: 'California'
-    \},
-    \{
-      imagePath: 'images/yellowstone-national-park-640x400.jpg',
-      heading: 'Yellowstone',
-      content: 'Wyoming, Montana and Idaho'
-    \},
-    \{
-      imagePath: 'images/grand-canyon-national-park-640x400.jpg',
-      heading: 'Grand Canyon',
-      content: 'Arizona'
-    \}\],
-    \[\{
-      imagePath: 'images/nozawa-onsen-640x400.jpg',
-      heading: 'Nozawa Onsen',
-      content: 'Nagano Prefecture'
-    \},
-    \{
-      imagePath: 'images/kyoto-640x400.jpg',
-      heading: 'Kyoto',
-      content: 'Kyoto Prefecture'
-    \},
-    \{
-      imagePath: 'images/tokyo-640x400.jpg',
-      heading: 'Tokyo',
-      content: 'Tokyo Metropolis'
-    \}\]
-  \]
+    [
+      [{
+        imagePath: 'images/yosemite-640x400.jpg',
+        heading: 'Yosemite',
+        content: 'California'
+      },
+      {
+        imagePath: 'images/yellowstone-national-park-640x400.jpg',
+        heading: 'Yellowstone',
+        content: 'Wyoming, Montana and Idaho'
+      },
+      {
+        imagePath: 'images/grand-canyon-national-park-640x400.jpg',
+        heading: 'Grand Canyon',
+        content: 'Arizona'
+      }],
+      [{
+        imagePath: 'images/nozawa-onsen-640x400.jpg',
+        heading: 'Nozawa Onsen',
+        content: 'Nagano Prefecture'
+      },
+      {
+        imagePath: 'images/kyoto-640x400.jpg',
+        heading: 'Kyoto',
+        content: 'Kyoto Prefecture'
+      },
+      {
+        imagePath: 'images/tokyo-640x400.jpg',
+        heading: 'Tokyo',
+        content: 'Tokyo Metropolis'
+      }]
+    ]
   
