@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Demo j-accordion.js</title>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" id="accordions-container"></div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="j-accordin.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(() => $('#accordions-container').jaccordion({
+      accordionHeadings: ['United States', 'Japan', 'Australia', 'France'],
+      data: [
+        [{
+          imagePath: 'images/yosemite-640x400.jpg',
+          heading: 'Yosemite',
+          content: 'California'
+        },
+        {
+          imagePath: 'images/yellowstone-national-park-640x400.jpg',
+          heading: 'Yellowstone',
+          content: 'Wyoming, Montana and Idaho'
+        },
+        {
+          imagePath: 'images/grand-canyon-national-park-640x400.jpg',
+          heading: 'Grand Canyon',
+          content: 'Arizona'
+        }],
+        [{
+          imagePath: 'images/nozawa-onsen-640x400.jpg',
+          heading: 'Nozawa Onsen',
+          content: 'Nagano Prefecture'
+        },
+        {
+          imagePath: 'images/kyoto-640x400.jpg',
+          heading: 'Kyoto',
+          content: 'Kyoto Prefecture'
+        },
+        {
+          imagePath: 'images/tokyo-640x400.jpg',
+          heading: 'Tokyo',
+          content: 'Tokyo Metropolis'
+        }],
+        [{
+          imagePath: 'images/melbourne-640x400.jpg',
+          heading: 'Melbourne',
+          content: 'Victoria'
+        },
+        {
+          imagePath: 'images/twelve-apostles-640x400.jpg',
+          heading: '12 Apostles',
+          content: 'Great Ocean Road, Victoria'
+        },
+        {
+          imagePath: 'images/uluru-640x400.jpg',
+          heading: 'Ayers Rock',
+          content: 'Uluru, Northern Territory'
+        }],
+        [{
+          imagePath: 'images/louvre-640x400.jpg',
+          heading: 'Louvre',
+          content: 'Paris'
+        },
+        {
+          imagePath: 'images/senanque-abbey-640x400.jpg',
+          heading: 'Abbaye Notre-Dame de Senanque',
+          content: 'Provence, France'
+        },
+        {
+          imagePath: 'images/nice-640x400.jpg',
+          heading: 'Nice',
+          content: 'France'
+        }]
+      ]
+    }));
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+$border-style: 1px solid #aaa;
+
+.accordion {
+	border: $border-style;
+	border-bottom-width: 0px;
+	margin-top: 50px;
+	> h2 {
+		padding: 5px 10px;
+		color: #393939;
+		border-bottom: $border-style;
+		font-size: 1.2em;
+		margin: 0;
+		word-break: break-all;
+	}
+}
+.accordion-content {
+	position: relative;
+	overflow: hidden;
+	.content {
+		padding: 10px;
+		border-bottom: $border-style;
+		strong {
+			font-weight: bold;
+			font-size: 1em;
+			word-break: break-all;
+		}
+		p {
+			color: #666;
+			margin: 0;
+		}
+	}
+	.image-container {
+		padding: 10px;
+		img {
+			display: block;
+		}
+	}
+	> div {
+		position: absolute;
+		display: block;
+		width: 100%;
+		cursor: pointer;
+		background-color: #ededed;
+	}
+}

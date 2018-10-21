@@ -1,58 +1,76 @@
-j-accordion.js
+j-accordion.js v.2.0
 ===========
 
-j-accordion.js is a jQuery accordion plugin just like the one on the NVIDIA homepage (<a href="http://www.nvidia.com/page/home.html" target="_blank">http://www.nvidia.com/page/home.html</a>)
+j-accordion.js is a jQuery accordion plugin.
 
-You can see the demo <a href="http://jsfiddle.net/misjerrywu/86U79/" target="_blank">HERE</a>.
+You can see the demo <a href="https://codepen.io/jerrywu/pen/pxZoQM" target="_blank">HERE</a>.
 
-### Include the following CSS in the HTML header:
+----
+## New features
+* Mobile friendly (By default, it uses Twitter Bootstrap)
+* Capabilities to specify the number of accordions and the number of sliding boxes to be created
 
-    <!-- YUI 3 CSS -->
-    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?3.12.0/cssreset/cssreset-min.css&3.12.0/cssfonts/cssfonts-min.css&3.12.0/cssgrids/cssgrids-min.css&3.12.0/cssbase/cssbase-min.css">
+----
+## Settings
+##### numberOfAccordions (Optional)
+* Type: integer
+* Default: 4
 
-    <!-- j-accordion style CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+Specify the number of accordions to be created.
 
-### This is the basic HTML structure required:
+##### numberOfBoxesPerAccordion (Optional)
+* Type: integer
+* Default: 3
 
-    <div class="accordion_container">
-        <h1>Title 1</h1>
-        <div class="accordion">
-            <div class="first current">
-                <div class="content"><img src="http://placehold.it/200x95" /></div>
-                <div class="tab">
-                    <strong>Sub Title 1-1</strong>
-                    <p>Content 1-1</p>
-                </div>
-            </div>
-            <div class="second">
-                <div class="content second"><img src="http://placehold.it/200x95" /></div>
-                <div class="tab">
-                    <strong>Sub Title 1-2</strong>
-                    <p>Content 1-2</p>
-                </div>
-            </div>
-            <div class="third">
-                <div class="content third"><img src="http://placehold.it/200x95" /></div>
-                <div class="tab">
-                    <strong>Sub Title 1-3</strong>
-                    <p>Content 1-3</p>
-                </div>
-            </div>
-        </div>
-    </div>
+Specify the number of sliding boxes (per accordion) to be created.
 
-### The JavaScript before the closing body tag:
+##### accordionHeadings (Optional)
+* Type: array
+* Default: ['Heading 1', 'Heading 2', 'Heading 3', 'Heading 4']
 
-    <body>
+Specify the heading for each accordion.
 
-        Here is the content
+##### divAccordionContainerClass (Optional)
+* Type: string
+* Default: 'col-sm'
 
-        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-        <script type="text/javascript" src="j-accordin.js"></script>
-        <script type="text/javascript">
-        $(document).ready(function(){
-            $('.accordion').jaccordion();
-        });
-        </script>
-    </body>
+Specify the CSS class for each accordion. By default, the value is Twitter Bootstrap grid system class 'col-sm'.
+
+##### data
+* Type: array
+* Default: 'col-sm'
+
+Content that is going to present. An example for 2 accordions, each accordion has 3 sliding boxes.
+
+  [
+    [{
+      imagePath: 'images/yosemite-640x400.jpg',
+      heading: 'Yosemite',
+      content: 'California'
+    },
+    {
+      imagePath: 'images/yellowstone-national-park-640x400.jpg',
+      heading: 'Yellowstone',
+      content: 'Wyoming, Montana and Idaho'
+    },
+    {
+      imagePath: 'images/grand-canyon-national-park-640x400.jpg',
+      heading: 'Grand Canyon',
+      content: 'Arizona'
+    }],
+    [{
+      imagePath: 'images/nozawa-onsen-640x400.jpg',
+      heading: 'Nozawa Onsen',
+      content: 'Nagano Prefecture'
+    },
+    {
+      imagePath: 'images/kyoto-640x400.jpg',
+      heading: 'Kyoto',
+      content: 'Kyoto Prefecture'
+    },
+    {
+      imagePath: 'images/tokyo-640x400.jpg',
+      heading: 'Tokyo',
+      content: 'Tokyo Metropolis'
+    }]
+  ]

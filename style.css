@@ -1,76 +1,46 @@
-#container {
-	width: 980px;
-	margin: 50px auto;
-}
-.accordion_container {
-	border: 1px solid #aaa;
-	margin: 0 11.5px;
-}
-.accordion_container > h1 {
-	z-index: 4;
-	padding: 5px 8px;
-	color: #393939;
-	font-weight: bold;
-	border-bottom: 1px solid #aaa;
-	font-size: 123.1%;
-	margin: 0;
-}
-.accordion_container {
-	width: 220px;
-}
-.accordion_container .content, .accordion_container .tab {
-	width: 200px;
-}
-.accordion_container .tab {
-	background-color: #ededed;
-	height: 55px;
-	border-bottom: 1px solid #aaa;
-}
-.accordion_container .tab strong {
-	font-weight: bold;
-	font-size: 93%;
-}
-.accordion_container .tab {
-	padding: 10px;
-}
-.accordion_container .tab p {
-	font-size: 85%;
-	color: #666;
-}
-.accordion_container .content {
-	background-color: #ededed;
-	padding: 10px;
-}
-.accordion_container .content img {
-	display: block;
-	width: 200px;
-	height: 95px;
-}
-.accordion_container .first {
-	z-index: 3;
-	top: 0px;
-}
-.accordion_container .second {
-	z-index: 2;
-	top: 76px;
-}
-.accordion_container .third {
-	z-index: 1;
-	top: 152px;
-}
 .accordion {
-	position: relative;
-	overflow: hidden;
-	height: 342px;
+  border: 1px solid #aaa;
+  border-bottom-width: 0px;
+  margin-top: 50px;
 }
-.accordion > div {
-	position: absolute;
-	left: 0px;
-	border-left: 1px solid #aaa;
-	border-right: 1px solid #aaa;
-	left: -1px;
-	cursor: pointer;
-	background-color: #f7f7f7;
+.accordion > h2 {
+  padding: 5px 10px;
+  color: #393939;
+  border-bottom: 1px solid #aaa;
+  font-size: 1.2em;
+  margin: 0;
+  word-break: break-all;
 }
-.hide {
+
+.accordion-content {
+  position: relative;
+  overflow: hidden;
 }
+.accordion-content .content {
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.accordion-content .content strong {
+  font-weight: bold;
+  font-size: 1em;
+  word-break: break-all;
+}
+.accordion-content .content p {
+  color: #666;
+  margin: 0;
+}
+.accordion-content .image-container {
+  padding: 10px;
+}
+.accordion-content .image-container img {
+  display: block;
+}
+.accordion-content > div {
+  position: absolute;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  background-color: #ededed;
+}
+
+/*# sourceMappingURL=style.css.map */
