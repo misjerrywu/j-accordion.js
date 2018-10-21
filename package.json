@@ -1,0 +1,23 @@
+{
+  "name": "j-accordion",
+  "version": "2.0.0",
+  "description": "j-accordion.js is a jQuery accordion plugin.",
+  "main": "j-accordin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misjerrywu/j-accordion.js.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Jerry Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/misjerrywu/j-accordion.js/issues"
+  },
+  "homepage": "https://github.com/misjerrywu/j-accordion.js#readme"
+}
