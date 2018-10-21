@@ -9,6 +9,10 @@ You can see the demo <a href="https://codepen.io/jerrywu/pen/pxZoQM" target="_bl
 * Mobile friendly (By default, it uses Twitter Bootstrap)
 * Capabilities to specify the number of accordions and the number of sliding boxes to be created
 
+## Installation
+#### NPM
+`npm i j-accordion`
+
 ## Settings
 ##### numberOfAccordions (Optional)
 * Type: integer
