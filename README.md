@@ -1,4 +1,4 @@
-j-accordion.js v.2.0
+j-accordion.js v.2.0.2
 ===========
 
 j-accordion.js is a jQuery accordion plugin.
@@ -7,7 +7,8 @@ You can see the demo <a href="https://codepen.io/jerrywu/pen/pxZoQM" target="_bl
 
 ## New features
 * Mobile friendly (By default, it uses Twitter Bootstrap)
-* Capabilities to specify the number of accordions and the number of sliding boxes to be created
+* Able to specify the number of accordions and the number of sliding boxes to be created
+* Other advanced settings
 
 ## Installation
 #### NPM
@@ -43,7 +44,7 @@ Specify the CSS class for each accordion. By default, the value is Twitter Boots
 * Default: 'col-sm'
 
 Content that is going to present. An example for 2 accordions, each accordion has 3 sliding boxes.
-  
+
     [
       [{
         imagePath: 'images/yosemite-640x400.jpg',
@@ -76,4 +77,3 @@ Content that is going to present. An example for 2 accordions, each accordion ha
         content: 'Tokyo Metropolis'
       }]
     ]
-  

@@ -1,6 +1,6 @@
 {
   "name": "j-accordion",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "j-accordion.js is a jQuery accordion plugin.",
   "main": "j-accordin.js",
   "scripts": {
